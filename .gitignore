@@ -1,1 +1,5 @@
 /venv
+/PKG -*
+# ignorar los .stp y .step generados
+*.stp
+*.step

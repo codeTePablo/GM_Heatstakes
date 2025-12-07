@@ -1,6 +1,11 @@
 """
-Lector de archivos STEP para detección de heatstakes
-Autor: Sistema de Detección de Features
+DETECTOR DE HEAT STAKES - Clustering de Cilindros (Optimizado para piezas ensambladas)
+Detecta heat stakes en archivos STEP usando clustering de cilindros.
+
+------------------------------------------------------------
+Developer: Pablo
+Contacto:  codewithpablo@gmail.com
+------------------------------------------------------------
 """
 
 from OCC.Core.STEPControl import STEPControl_Reader
@@ -254,7 +259,7 @@ def main():
     """Función principal para ejecutar el lector de STEP"""
     
     # Nombre del archivo
-    filename = "pieza3.stp"
+    filename = "PKG - COMPONENTES CON HEAT STAKES - UAEMEX/PKG - COMPONENTES CON HEAT STAKES - UAEMEX/EXERCISE 1 -DOOR PANELS.stp"
     
     # Crear instancia del lector
     reader = STEPReader(filename)
